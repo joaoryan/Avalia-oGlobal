@@ -1,6 +1,6 @@
 from sympy import Symbol, solve
 
-matricula = 9594
+matricula = 239
 c = matricula % 10
 
 
@@ -13,11 +13,11 @@ def V2():
 
 
 def malhaEsquerda(I1, I2):
-    return -V1() + 25 * I1 + 10 * (I1 - I2)
+    return -V1() + 20 * I1 + 25 * (I1 - I2)
 
 
 def malhaDireita(I2, I3):
-    return -V2() + 20 * I3 + 10 * (I3 - I2)
+    return -V2() + 25 * I3 + 10 * (I3 - I2)
 
 
 def leiDosNos(I1, I2, I3):
